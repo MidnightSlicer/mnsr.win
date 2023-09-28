@@ -1,9 +1,9 @@
-# About `barf`
+# About **ME**
 
-barf is a minimal and suckless-inspired blog generator. It is a tweaked and slightly patched version of Karl Bartel's fantastic [blog.sh](https://github.com/karlb/karl.berlin).
+Hello! My name is Dylan. I am a christian, computer enthusiast and software developer in college (graduating soon!). I grew up in a rural area of America and I hope to never leave it. I am a passionate person who cares about privacy and freedom. I created this blog to express myself freely and share knowledge. I find I am able to process thoughts better when I write them down. I also find myself sharing the same information with family and friends a lot and thought it may be a good thing to just put guides and such in blog so I can just send them a link. If other people find this, welcome! I will not play any SEO games (other than basic submission to major search engines) because I have wasted enough time doing that I and I am writing here only for me.
 
-## Why?
+## _Contact Me_
+This site does not use cookies, trackers, analytics, or any other garbage that defines the modern bloated and spyware ridden web of **current year.** If you feel genuinely moved or intrigued by one of my posts, please feel free to reach out! That will mean so much more than fake internet points. If you have something sensitive to say feel free to encrypt it with [PGP].
+If you write hate mail I'll just laugh and block you. Get wrecked. 
 
-This project was created by me, [Bradley Taunt](https://bt.ht), out of frustration with overly complex and bloated blogging options. I tried *so many* "minimal" generators but each one ended up having some glaring issue or heavy reliance on dependencies. 
-
-I wanted to have a system that I could easily replicate on any Linux machine. Something that didn't require me to download half the internet just to get up and running. I'm a sucker for keeping things simple.
+Email: dylan [AT] mnsr [DOT] win

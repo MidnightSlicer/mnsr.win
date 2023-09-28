@@ -1,17 +1,8 @@
-<img style="border:0;margin-top:2rem;" src="/public/images/barf.svg" alt="barf logo">
+<img style="border:0;margin-top:2rem;" src="/public/images/midnightslicer.png" alt="MidnightSlicer logo">
 
-**barf is an extremely minimal blog generator.**
-
-The entire build script is less than 100 lines of shell.
-
-It could almost be called "suckless", but probably isn't. It was created for those focused on writing, not tinkering.
-
-You can learn more by reading the [official README](https://git.sr.ht/~bt/barf).
-
-You can also view the generated [Atom feed here](/atom.xml)
-
-> **barf**
->
-> Blogs Are Really Fun
+# Hello! I am Dylan
+Welcome to my little blog. This is my place to be on the internet. My home. Welcome in! This site basically contains my personal thoughts and idea that I wanted to write down. I find writing to be therapeutic and it encourages creativity. 
+## What do I do?
+I am a software developer. I have not fully established my place in the world, but I like mobile development as well as server-side stuff. I am a open source software enthusiast and I want to spread the message of software freedom and security to 
 
 ---
