@@ -1,8 +1,7 @@
 # Hello World!
 
-09-24-2023
+2023-09-27
 
-This is my first post on my new blog
-============
+Welcome to my blog! I have always wanted to have a blog of my own, and that desire was spurred on by my decision to leave social media. I love writing and I needed a place to express that love that was mine. When I became aware of open source, freedom, privacy, and all that other cool stuff I wanted to not only use a platform free of spyware, but I also wanted to *own the platform*. I have expressed that already by running my own Minecraft server, Matrix server, and a few other servers for me and my friends, so to me a website is kinda the logical next step.
 
-Welcome to my blog! I have always wanted to have a blog of my own, and that desire was spurred on by my recent decision to leave social media. 
+So please, enjoy your stay, enjoy the reading, and enjoy the learning!
