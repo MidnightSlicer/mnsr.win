@@ -85,6 +85,7 @@ write_page() {
 }
 
 rm -fr build && mkdir build
+cp -r public build/public
 
 # Blog posts
 index_tsv posts | sort -rt "	" -k 3 > build/posts.tsv

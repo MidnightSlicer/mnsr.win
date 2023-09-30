@@ -1,4 +1,4 @@
-<img style="border:0;margin-top:2rem;" src="/public/images/midnightslicer.png" alt="MidnightSlicer logo">
+<img style="border:0;margin-top:2rem;" src="../public/images/midnightslicer.png" alt="MidnightSlicer logo">
 
 # Hello! I am Dylan
 Welcome to my little blog. This is my place to be on the internet. My home. Welcome in! This site basically contains my personal thoughts and idea that I wanted to write down. I find writing to be therapeutic and it encourages creativity. 
