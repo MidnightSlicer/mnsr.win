@@ -1,6 +1,6 @@
 <img style="border:0;margin-top:2rem;" src="../public/images/midnightslicer.png" alt="MidnightSlicer logo">
 
-# Hello! I am Dylan
+# Hello! I am Dylan.
 Welcome to my little blog. This is my place to be on the internet. My home. Welcome in! This site basically contains my personal thoughts and idea that I wanted to write down. I find writing to be therapeutic and it encourages creativity. 
 As for my current tech stuff, I use [Arch](https://archlinux.org/) (btw) on my main computer and [GrapheheOS](https://grapheneos.org/) on my phone.
 ## What do I do?
