@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Hello! I am Dylan</title>
-	<link href="https://mnsr.win/atom.xml" rel="self" />
-	<updated>2023-09-29T23:50:22Z</updated>
+	<link href="https://mnsr.win
+https://github.com/MidnightSlicer/atom.xml" rel="self" />
+	<updated>2023-09-29T23:54:12Z</updated>
 	<author>
 		<name>Dylan H</name>
 	</author>
-	<id>https://mnsr.win,2023-09-19:default-atom-feed/</id>
+	<id>https://mnsr.win
+https://github.com/MidnightSlicer,2023-09-19:default-atom-feed/</id>
 	<entry>
 		<title>Hello World!</title>
 		<content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
 &lt;p&gt;2023-09-27&lt;/p&gt;
 &lt;p&gt;Welcome to my blog! I have always wanted to have a blog of my own, and that desire was spurred on by my decision to leave social media. I love writing and I needed a place to express that love that was mine. When I became aware of open source, freedom, privacy, and all that other cool stuff I wanted to not only use a platform free of spyware, but I also wanted to &lt;em&gt;own the platform&lt;/em&gt;. I have expressed that already by running my own Minecraft server, Matrix server, and a few other servers for me and my friends, so to me a website is kinda the logical next step.&lt;/p&gt;
 &lt;p&gt;So please, enjoy your stay, enjoy the reading, and enjoy the learning!&lt;/p&gt;</content>
-		<link href="https://mnsr.win/hello-world"/>
-		<id>https://mnsr.win/hello-world</id>
+		<link href="https://mnsr.win
+https://github.com/MidnightSlicer/hello-world"/>
+		<id>https://mnsr.win
+https://github.com/MidnightSlicer/hello-world</id>
 		<updated>2023-09-27T10:00:00Z</updated>
 		<published>2023-09-27T10:00:00Z</published>
 	</entry>
