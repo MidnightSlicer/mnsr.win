@@ -3,7 +3,7 @@
 	<title>MidnightSlicer Blog</title>
 	<link href="https://mnsr.win
 https://github.com/MidnightSlicer/atom.xml" rel="self" />
-	<updated>2023-10-07T22:34:05Z</updated>
+	<updated>2023-10-07T22:37:06Z</updated>
 	<author>
 		<name>Dylan H</name>
 	</author>
@@ -41,5 +41,33 @@ https://github.com/MidnightSlicer/computers-and-me"/>
 https://github.com/MidnightSlicer/computers-and-me</id>
 		<updated>2023-09-30T10:00:00Z</updated>
 		<published>2023-09-30T10:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Joining The 512KB Club</title>
+		<content type="html">&lt;h1&gt;Joining The 512KB Club&lt;/h1&gt;
+&lt;p&gt;2023-10-07&lt;/p&gt;
+&lt;p&gt;I am a bit of a nerd for optimization. It is always satisfying to me when I am able to shave a fifth of a second off some operation or trivial task. I am the physical embodiment of spending 5 hours to save time on a 5 minute task. It is just so rewarding to me, even if some people don&#39;t get it!&lt;/p&gt;
+&lt;h2&gt;The 512KB Club?&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;&quot; title=&quot;https://512kb.club/&quot;&gt;512KB Club&lt;/a&gt; is sort of like a webring for websites that are less than 512KB... obviously. On their home page they point out that many websites are now &lt;strong&gt;&lt;em&gt;several MB in size&lt;/em&gt;&lt;/strong&gt; and bloated with JavaScript. There is almost no reason for a website to be that large. So, I decided to check mine... and it fits! My home page is about 15KB. &lt;/p&gt;
+&lt;h2&gt;Why Does This Matter?&lt;/h2&gt;
+&lt;p&gt;Well, from a completely practical standpoint, smaller webpages result in faster loading times. If a webpage is large, people on poor internet connections or slower devices will struggle to load the page. In most cases, if a page takes too long to load people will just leave, which is sad if you want them to read your stuff. 
+Even if you have a good internet connection and a simi-modern device, you will still see a notable hitch when loading large webpages. Just go to some bloated site, open the dev tools, go to the network section, and refresh the page to watch all those assets load in. It is wild. 
+I think the main reason for smaller webpages is &lt;em&gt;there is no good reason for them to be large&lt;/em&gt;. It is just a waste to create pretty visuals. I am constantly reminded of this when I have to visit a utility company&#39;s website. It is just stupid. They&#39;ve got fire, water, and lighting effects as a scroll down the page just trying to find the little &quot;pay my bills&quot; button. I don&#39;t want to see how much money you wasted on web design. I want to pay my bills and immediately leave. I guess the utility companies in my area got some government grant and they had to spend it somehow, so they made a &quot;pretty&quot; website. Beauty is in the eye of the beholder, and I behold JavaScript bloat. &lt;/p&gt;
+&lt;h2&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;I always bring it back to privacy. But really, if your website is smaller, it is harder to cram trackers in. It is certainly possible, but it is harder. It is also easier to review your website&#39;s code if there is less of it. I obviously believe you should have the freedom to visit a website without leaving a stain of your existence with details about your browser and browsing history (I&#39;m looking at you &lt;a href=&quot;&quot; title=&quot;https://brave.com/web-standards-at-brave/7-googles-topics-api/&quot;&gt;Google&lt;/a&gt;). I know Nginx logs some information about the visitors of my website, but there are a few reasons that doesn&#39;t matter as much:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I am not selling ads based off that information&lt;/li&gt;
+&lt;li&gt;I am not selling that information to someone who would sell ads based off that information&lt;/li&gt;
+&lt;li&gt;I&#39;m not creepy 👁️&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;In conclusion, I like small websites because they are more efficient. What am I going to do about these recent discoveries? obviously I am going to submit to join the 512KB Club! I will update this page if I get added.  &lt;/p&gt;</content>
+		<link href="https://mnsr.win
+https://github.com/MidnightSlicer/512kb"/>
+		<id>https://mnsr.win
+https://github.com/MidnightSlicer/512kb</id>
+		<updated>2023-10-07T10:00:00Z</updated>
+		<published>2023-10-07T10:00:00Z</published>
 	</entry>
 </feed>
