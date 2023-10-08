@@ -5,6 +5,6 @@ I grew up on a small farm in a rural part of the country and I love it. I have w
 Anyway, welcome to my blog! Take a look around and enjoy the content. I have funny stuff, thought experiments, and of course, guides. Enjoy! 
 
 ## _Contact Me_
-This site does not use cookies, trackers, analytics, or any other garbage that defines the modern bloated and spyware ridden web of **current year**. If you feel genuinely moved or intrigued by one of my posts, please feel free to reach out! That will mean so much more to me than fake internet points (views). If you have something sensitive to say feel free to encrypt it with my [PGP]("/pgp") keys.
+This site does not use cookies, trackers, analytics, or any other garbage that defines the modern bloated and spyware ridden web of **current year**. If you feel genuinely moved or intrigued by one of my posts, please feel free to reach out! That will mean so much more to me than fake internet points (views). If you have something sensitive to say feel free to encrypt it with my [PGP]("https://mnsr.win/pgp") keys.
 
 Email: dylan AT mnsr DOT win

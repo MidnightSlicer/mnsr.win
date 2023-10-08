@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark">
+	<link rel="icon" href="/public/images/favicon.png">
+	<title>Joining The 512KB Club</title>
+	<link href="https://mnsr.win/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: sans-serif;
+			line-height: 1.45;
+			margin: 0 auto;
+			max-width: 45rem;
+			padding: 0 15px;
+		}
+		hr {
+			background-color: grey;
+			border: 0;
+			height: 1px;
+			margin: 2rem 0;
+		}
+		nav {
+			margin: 2rem 0 0;
+		}
+		main {
+			hyphens: none;
+		}
+		main p {
+			margin: 1rem;
+		}
+		h1,h2,h3,h4 {
+			margin: 2rem 0 0;
+		}
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+		h1 + p {
+			margin: 0 0 1rem;
+		}
+		span.created {
+			display: block;
+			margin: 4px 15px;
+		}
+		img {
+			border: 1px solid lightgrey;
+			height: auto;
+			max-width: 100%;
+			width: auto;
+		}
+		blockquote {
+			border: 1px solid;
+			border-left: 6px solid;
+			margin: 2rem 0;
+			padding: 10px;
+		}
+		blockquote p {
+			margin: 0;
+		}
+		figure {
+			margin: 2rem 0;
+		}
+		figcaption {
+			color: slategrey;
+		}
+		code {
+			border: 1px solid;
+			padding: 0.1rem 0.3rem;
+			tab-size: 4;
+		}
+		pre {
+			border: 1px solid;
+		}
+		pre code {
+			border: 0;
+			display: block;
+			overflow-x: auto;
+			padding: 0.3rem 0.6rem;
+		}
+		table {
+			border-collapse: collapse;
+			margin: 2rem 0;
+			text-align: left;
+			width: 100%;
+		}
+		tr {
+			border-bottom: 1px solid lightgrey;
+		}
+		tr:nth-of-type(odd) td {
+			background-color: #f8f8f8;
+		}
+		th,td {
+			padding: 6px;
+		}
+		footer {
+			border-top: 1px dashed grey;
+			margin: 2rem 0;
+			padding: 1rem 15px;
+		}
+		@supports (color-scheme: dark light) {
+			@media screen and (prefers-color-scheme: dark) {
+				a:link {color: #9e9eff;}
+				a:visited {color: #d0adf0;}
+				a:active {color: red;}
+			}
+		}
+	</style>
+</head>
+
+<nav>
+	<a href="/">Home</a><span> | </span><a href="/about">About</a><span> | </span><a href="/quotes">Quotes</a><span> | </span><a href="/setup">Setup</a>
+	<br /><a href="/atom.xml">RSS</a><span> | </span><a href="/pgp">PGP</a> <span> | </span><a href="/links">Links</a> <span> | </span><a href="https://github.com/MidnightSlicer/mnsr.win">Source Code</a>
+</nav>
+
+<main>
+<h1>Joining The 512KB Club</h1>
+<p>2023-10-07</p>
+<p>I am a bit of a nerd for optimization. It is always satisfying to me when I am able to shave a fifth of a second off some operation or trivial task. I am the physical embodiment of spending 5 hours to save time on a 5 minute task. It is just so rewarding to me, even if some people don't get it!</p>
+<h2>The 512KB Club?</h2>
+<p>The <a href="" title="https://512kb.club/">512KB Club</a> is sort of like a webring for websites that are less than 512KB... obviously. On their home page they point out that many websites are now <strong><em>several MB in size</em></strong> and bloated with JavaScript. There is almost no reason for a website to be that large. So, I decided to check mine... and it fits! My home page is about 15KB. </p>
+<h2>Why Does This Matter?</h2>
+<p>Well, from a completely practical standpoint, smaller webpages result in faster loading times. If a webpage is large, people on poor internet connections or slower devices will struggle to load the page. In most cases, if a page takes too long to load people will just leave, which is sad if you want them to read your stuff. 
+Even if you have a good internet connection and a simi-modern device, you will still see a notable hitch when loading large webpages. Just go to some bloated site, open the dev tools, go to the network section, and refresh the page to watch all those assets load in. It is wild. 
+I think the main reason for smaller webpages is <em>there is no good reason for them to be large</em>. It is just a waste to create pretty visuals. I am constantly reminded of this when I have to visit a utility company's website. It is just stupid. They've got fire, water, and lighting effects as a scroll down the page just trying to find the little "pay my bills" button. I don't want to see how much money you wasted on web design. I want to pay my bills and immediately leave. I guess the utility companies in my area got some government grant and they had to spend it somehow, so they made a "pretty" website. Beauty is in the eye of the beholder, and I behold JavaScript bloat. </p>
+<h2>Privacy</h2>
+<p>I always bring it back to privacy. But really, if your website is smaller, it is harder to cram trackers in. It is certainly possible, but it is harder. It is also easier to review your website's code if there is less of it. I obviously believe you should have the freedom to visit a website without leaving a stain of your existence with details about your browser and browsing history (I'm looking at you <a href="" title="https://brave.com/web-standards-at-brave/7-googles-topics-api/">Google</a>). I know Nginx logs some information about the visitors of my website, but there are a few reasons that doesn't matter as much:</p>
+
+<ol>
+<li>I am not selling ads based off that information</li>
+<li>I am not selling that information to someone who would sell ads based off that information</li>
+<li>I'm not creepy 👁️</li>
+</ol>
+<h1>Conclusion</h1>
+<p>In conclusion, I like small websites because they are more efficient. What am I going to do about these recent discoveries? obviously I am going to submit to join the 512KB Club! I will update this page if I get added.  </p>
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+
+    <small>
+        Built with <a href="https://git.sr.ht/~bt/barf">barf</a>, a simple and minimal website generator licensed under the <a href="https://git.sr.ht/~bt/barf/tree/master/item/LICENSE">MIT</a> license. <br>
+        The content of this site is licensed under the <a href="https://github.com/MidnightSlicer/mnsr.win/blob/main/LICENSE">GPL 3.0</a> license.
+    </small>
+</footer>
