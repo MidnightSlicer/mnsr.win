@@ -1,26 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>MidnightSlicer Blog</title>
-	<link href="https://mnsr.win
-https://github.com/MidnightSlicer/atom.xml" rel="self" />
-	<updated>2023-10-08T15:03:34Z</updated>
+	<link href="https://mnsr.win/atom.xml" rel="self" />
+	<updated>2023-10-14T22:05:11Z</updated>
 	<author>
-		<name>Dylan H</name>
+		<name>Dylan</name>
 	</author>
-	<id>https://mnsr.win
-https://github.com/MidnightSlicer,2023-09-19:default-atom-feed/</id>
+	<id>https://mnsr.win,2023-09-19:default-atom-feed/</id>
 	<entry>
 		<title>Hello World!</title>
 		<content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
 &lt;p&gt;2023-09-27&lt;/p&gt;
 &lt;p&gt;Welcome to my blog! I have always wanted to have a blog of my own, and that desire was spurred on by my decision to leave social media. I love writing and I needed a place to express that love that was mine. When I became aware of open source, freedom, privacy, and all that other cool stuff I wanted to not only use a platform free of spyware, but I also wanted to &lt;em&gt;own the platform&lt;/em&gt;. I have already expressed that by running my own Minecraft server, Matrix server, and a few other servers for my friends and I, so to me a website is kinda the logical next step.&lt;/p&gt;
 &lt;p&gt;So please, enjoy your stay, enjoy the reading, and enjoy the learning!&lt;/p&gt;</content>
-		<link href="https://mnsr.win
-https://github.com/MidnightSlicer/hello-world"/>
-		<id>https://mnsr.win
-https://github.com/MidnightSlicer/hello-world</id>
+		<link href="https://mnsr.win/hello-world"/>
+		<id>https://mnsr.win/hello-world</id>
 		<updated>2023-09-27T10:00:00Z</updated>
 		<published>2023-09-27T10:00:00Z</published>
+	</entry>
+	<entry>
+		<title>The Darktheme Club</title>
+		<content type="html">&lt;h1&gt;The Darktheme Club&lt;/h1&gt;
+&lt;p&gt;2023-10-14&lt;/p&gt;
+&lt;p&gt;Previously, I talked about &lt;a href=&quot;https://mnsr.win/512KB/&quot;&gt;joining the 512kb club&lt;/a&gt; and I mostly spoke on the attractiveness and art of making a small (in size, not in value) website. I argued that a better web is one where the user is not required to download several megabytes of bloated JS frameworks and spyware (which is a type of malware). Today, I am writing about joining the &lt;a href=&quot;https://darktheme.club&quot;&gt;Darktheme Club&lt;/a&gt;. This is less of a principle and more of a personal preference, but if you know me you know I love dark mode. Everything must be dark mode for me. If an application doesn&#39;t have dark mode I will consider uninstalling it. I just don&#39;t like having my eyes burned when I just want to read something. I also just think it looks slick. &lt;/p&gt;
+&lt;p&gt;The Darktheme Club is simply a club of websites that have dark mode in some way, shape, or form. Some are dark only (like mine!), some are based off your operating system, and some are picked by the user. This is less about saying &quot;You must use dark mode&quot; and more about pointing out the importance of using tools like this to share your personal site with like minded people. I highly recommend running your own blog/site (or &lt;a href=&quot;https://bt.ht/dump/&quot;&gt;brain dump&lt;/a&gt;, more accurately). But, without algorithms to share our stuff and manipulate us, the web really starts to look like a lonely place. A lot of these little personal sites will not appear on an internet search, leaving it up to the community to share its own content. Webrings and clubs are excellent ways to do this. Start your own site and join some clubs! It is really fun and you may find some cool sites along the way. &lt;/p&gt;
+&lt;p&gt;As I find more clubs and webrings I will join them and add their links where it is needed. For me, all of them are on my &lt;a href=&quot;https://mnsr.win/about/&quot;&gt;About&lt;/a&gt; page unless one says it must be on the footer, for example. &lt;/p&gt;</content>
+		<link href="https://mnsr.win/darkmode"/>
+		<id>https://mnsr.win/darkmode</id>
+		<updated>2023-10-14T10:00:00Z</updated>
+		<published>2023-10-14T10:00:00Z</published>
 	</entry>
 	<entry>
 		<title>My Experience with Computers</title>
@@ -35,10 +43,8 @@ https://github.com/MidnightSlicer/hello-world</id>
 &lt;p&gt;Can I start by saying don&#39;t buy an Alienware? There is just better ways to spend money. Anyway, I bought an Alienware R15 with a 8th gen Intel i7 and an Nvidia RTX 2060. At this point the main difference between macOS and Windows 10 was the &quot;X&quot; button moving, I was not that technical yet. The Alienware Laptop served me well as I worked on my 3D modeling skills. While 3D modeling, I discovered scripting with Python. I started to really enjoy making little Python scripts more than 3D modeling. After about a year of trying other things for short periods of time, I knew what I was made for. I am a software developer. I am naturally inclined to think like a computer and a touch of OCD helps me keep my code clean. After about 3 years with the Alienware, I had discovered Linux and I wanted to try it out. After raise at my job, the discovery of &lt;a href=&quot;https://www.youtube.com/@linustechtips&quot;&gt;LTT&lt;/a&gt;, and more general computing knowledge, it was time. I finally saved up and built my first desktop computer.&lt;/p&gt;
 &lt;h2&gt;My First Build, &lt;em&gt;MidnightSlicer&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;My first build went very well. I didn&#39;t have to take it apart again to get it to work like some do and it was overall an amazing experience (other than the whole MSI thing but I will write about that later). I built near the end of the crypto boom so I was only able to afford an RX 6600 XT, but it has been enough for what I do. The majority of my time on computers is spent doing CPU heavy work, with gaming being about a third priority. One interesting thing about this computer is I went out of my way to avoid RGB lights... Hence the name, MidnightSlicer. I installed Windows 11 on it for a little bit, but when I was finally ready to switch to Linux I installed Manjaro and have not went back to Windows since. &lt;/p&gt;</content>
-		<link href="https://mnsr.win
-https://github.com/MidnightSlicer/computers-and-me"/>
-		<id>https://mnsr.win
-https://github.com/MidnightSlicer/computers-and-me</id>
+		<link href="https://mnsr.win/computers-and-me"/>
+		<id>https://mnsr.win/computers-and-me</id>
 		<updated>2023-09-30T10:00:00Z</updated>
 		<published>2023-09-30T10:00:00Z</published>
 	</entry>
@@ -48,13 +54,13 @@ https://github.com/MidnightSlicer/computers-and-me</id>
 &lt;p&gt;2023-10-07&lt;/p&gt;
 &lt;p&gt;I am a bit of a nerd for optimization. It is always satisfying to me when I am able to shave a fifth of a second off some operation or trivial task. I am the physical embodiment of spending 5 hours to save time on a 5 minute task. It is just so rewarding to me, even if some people don&#39;t get it!&lt;/p&gt;
 &lt;h2&gt;The 512KB Club?&lt;/h2&gt;
-&lt;p&gt;The &lt;a href=&quot;&quot; title=&quot;https://512kb.club/&quot;&gt;512KB Club&lt;/a&gt; is sort of like a webring for websites that are less than 512KB... obviously. On their home page they point out that many websites are now &lt;strong&gt;&lt;em&gt;several MB in size&lt;/em&gt;&lt;/strong&gt; and bloated with JavaScript. There is almost no reason for a website to be that large. So, I decided to check mine... and it fits! My home page is about 15KB. &lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://512kb.club/&quot;&gt;512KB Club&lt;/a&gt; is sort of like a webring for websites that are less than 512KB... obviously. On their home page they point out that many websites are now &lt;strong&gt;&lt;em&gt;several MB in size&lt;/em&gt;&lt;/strong&gt; and bloated with JavaScript. There is almost no reason for a website to be that large. So, I decided to check mine... and it fits! My home page is about 15KB. &lt;/p&gt;
 &lt;h2&gt;Why Does This Matter?&lt;/h2&gt;
 &lt;p&gt;Well, from a completely practical standpoint, smaller webpages result in faster loading times. If a webpage is large, people on poor internet connections or slower devices will struggle to load the page. In most cases, if a page takes too long to load people will just leave, which is sad if you want them to read your stuff. &lt;/p&gt;
 &lt;p&gt;Even if you have a good internet connection and a simi-modern device, you will still see a notable hitch when loading large webpages. Just go to some bloated site, open the dev tools, go to the network section, and refresh the page to watch all those assets load in. It is wild. &lt;/p&gt;
 &lt;p&gt;I think the main reason for smaller webpages is &lt;em&gt;there is no good reason for them to be large&lt;/em&gt;. It is just a waste to create pretty visuals. I am constantly reminded of this when I have to visit a utility company&#39;s website. It is just stupid. They&#39;ve got fire, water, and lighting effects as a scroll down the page just trying to find the little &quot;pay my bills&quot; button. I don&#39;t want to see how much money you wasted on web design. I want to pay my bills and immediately leave. I guess the utility companies in my area got some government grant and they had to spend it somehow, so they made a &quot;pretty&quot; website. Beauty is in the eye of the beholder, and I behold JavaScript bloat. &lt;/p&gt;
 &lt;h2&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;I always bring it back to privacy. But really, if your website is smaller, it is harder to cram trackers in. It is certainly possible, but it is harder. It is also easier to review your website&#39;s code if there is less of it. I obviously believe you should have the freedom to visit a website without leaving a stain of your existence with details about your browser and browsing history (I&#39;m looking at you &lt;a href=&quot;&quot; title=&quot;https://brave.com/web-standards-at-brave/7-googles-topics-api/&quot;&gt;Google&lt;/a&gt;). I know Nginx logs some information about the visitors of my website, but there are a few reasons that doesn&#39;t matter as much:&lt;/p&gt;
+&lt;p&gt;I always bring it back to privacy. But really, if your website is smaller, it is harder to cram trackers in. It is certainly possible, but it is harder. It is also easier to review your website&#39;s code if there is less of it. I obviously believe you should have the freedom to visit a website without leaving a stain of your existence with details about your browser and browsing history (I&#39;m looking at you &lt;a href=&quot;https://brave.com/web-standards-at-brave/7-googles-topics-api/&quot;&gt;Google&lt;/a&gt;). I know Nginx logs some information about the visitors of my website, but there are a few reasons that doesn&#39;t matter as much:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;I am not selling ads based off that information&lt;/li&gt;
 &lt;li&gt;I am not selling that information to someone who would sell ads based off that information&lt;/li&gt;
@@ -64,10 +70,8 @@ https://github.com/MidnightSlicer/computers-and-me</id>
 &lt;p&gt;In conclusion, I like small websites because they are more efficient. What am I going to do about these recent discoveries? obviously I am going to submit to join the 512KB Club! &lt;/p&gt;
 &lt;p&gt;Update: I am now a proud member of the green team of 512KB club.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://512kb.club&quot;&gt;&lt;img src=&quot;../public/badges/green-team.svg&quot; alt=&quot;a proud member of the green team of 512KB club&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content>
-		<link href="https://mnsr.win
-https://github.com/MidnightSlicer/512KB"/>
-		<id>https://mnsr.win
-https://github.com/MidnightSlicer/512KB</id>
+		<link href="https://mnsr.win/512KB"/>
+		<id>https://mnsr.win/512KB</id>
 		<updated>2023-10-07T10:00:00Z</updated>
 		<published>2023-10-07T10:00:00Z</published>
 	</entry>

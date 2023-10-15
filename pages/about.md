@@ -7,7 +7,7 @@ Anyway, welcome to my blog! Take a look around and enjoy the content. I have fun
 
 ## _Contact Me_
 
-This site does not use cookies, trackers, analytics, or any other garbage that defines the modern bloated and spyware ridden web of **current year**. If you feel genuinely moved or intrigued by one of my posts, please feel free to reach out! That will mean so much more to me than fake internet points (views). If you have something sensitive to say feel free to encrypt it with my [PGP]("https://mnsr.win/pgp/index.html") keys.
+This site does not use cookies, trackers, analytics, or any other garbage that defines the modern bloated and spyware ridden web of **current year**. If you feel genuinely moved or intrigued by one of my posts, please feel free to reach out! That will mean so much more to me than fake internet points (views). If you have something sensitive to say feel free to encrypt it with my [PGP](https://mnsr.win/pgp/) keys.
 
 Email: dylan AT mnsr DOT win
 
@@ -21,3 +21,5 @@ Email: dylan AT mnsr DOT win
 <br />
 <img src="../public/badges/america.png" alt="'merica" />
 <a href="https://denshi.org/antiporn"><img src="https://denshi.org//buttons/banporn.png" alt="Denshi Ban Porn" /></a>
+
+<p>👻 Proud member of <a href="https://darktheme.club/">darktheme.club</a> 👻</p>

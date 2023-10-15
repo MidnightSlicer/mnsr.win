@@ -1,0 +1,9 @@
+# The Darktheme Club
+
+2023-10-14
+
+Previously, I talked about [joining the 512kb club](https://mnsr.win/512KB/) and I mostly spoke on the attractiveness and art of making a small (in size, not in value) website. I argued that a better web is one where the user is not required to download several megabytes of bloated JS frameworks and spyware (which is a type of malware). Today, I am writing about joining the [Darktheme Club](https://darktheme.club). This is less of a principle and more of a personal preference, but if you know me you know I love dark mode. Everything must be dark mode for me. If an application doesn't have dark mode I will consider uninstalling it. I just don't like having my eyes burned when I just want to read something. I also just think it looks slick. 
+
+The Darktheme Club is simply a club of websites that have dark mode in some way, shape, or form. Some are dark only (like mine!), some are based off your operating system, and some are picked by the user. This is less about saying "You must use dark mode" and more about pointing out the importance of using tools like this to share your personal site with like minded people. I highly recommend running your own blog/site (or [brain dump](https://bt.ht/dump/), more accurately). But, without algorithms to share our stuff and manipulate us, the web really starts to look like a lonely place. A lot of these little personal sites will not appear on an internet search, leaving it up to the community to share its own content. Webrings and clubs are excellent ways to do this. Start your own site and join some clubs! It is really fun and you may find some cool sites along the way. 
+
+As I find more clubs and webrings I will join them and add their links where it is needed. For me, all of them are on my [About](https://mnsr.win/about/) page unless one says it must be on the footer, for example. 

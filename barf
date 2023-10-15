@@ -33,7 +33,7 @@ index_html() {
 
 atom_xml() {
 	uri=$(sed -rn '/atom.xml/ s/.*href="([^"]*)".*/\1/ p' header.html)
-	domain=$(echo "$uri" | sed 's/atom.xml//g' | sed 's|/[^/]*$||')
+	domain='https://mnsr.win' #$(echo "$uri" | sed 's/atom.xml//g' | sed 's|/[^/]*$||')
 	first_commit_date=$(git log --pretty='format:%ai' . | cut -d ' ' -f1 | tail -1)
 
 	cat <<EOF
@@ -43,7 +43,7 @@ atom_xml() {
 	<link href="$domain/atom.xml" rel="self" />
 	<updated>$(date +%FT%TZ)</updated>
 	<author>
-		<name>$(git config user.name)</name>
+		<name>Dylan</name>
 	</author>
 	<id>$domain,$first_commit_date:default-atom-feed/</id>
 EOF
