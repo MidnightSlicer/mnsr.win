@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>MidnightSlicer Blog</title>
 	<link href="https://mnsr.win/atom.xml" rel="self" />
-	<updated>2023-10-14T22:05:11Z</updated>
+	<updated>2023-10-21T13:15:52Z</updated>
 	<author>
 		<name>Dylan</name>
 	</author>
 	<id>https://mnsr.win,2023-09-19:default-atom-feed/</id>
+	<entry>
+		<title>Spooky Software</title>
+		<content type="html">&lt;h1&gt;Spooky Software&lt;/h1&gt;
+&lt;p&gt;2023-10-21&lt;/p&gt;
+&lt;p&gt;Well, it is October, the month that some people celebrate &quot;Halloween&quot; and dress up spooky. While I do not really like the those celebrations and don&#39;t participate I will use the &quot;Spooky Month&quot; excuse to talk about spooky software.&lt;/p&gt;
+&lt;h2&gt;What is &quot;Spooky Software&quot;?&lt;/h2&gt;
+&lt;p&gt;Spooky Software is any application, service, or other software that does not respect the user&#39;s privacy. Most spooky software is proprietary, but there is open source spooky software. Some examples of spooky software would be: Google Chrome, TikTok, YouTube, Discord, etc. These apps are not only proprietary, but proven to spy on their users. That is spooky! 👻 &lt;/p&gt;
+&lt;h2&gt;What Do I Do About Spooky Software?&lt;/h2&gt;
+&lt;p&gt;If you are reading this, I likely don&#39;t need to explain why you should not want to be spied on. If you are still ok with being spied on, this post will not address that belief specifically. I do want to understand that thought process, so I am researching it and I will write about it when I finish. Anyway, the best answer is to &lt;em&gt;stop using it&lt;/em&gt;, however, that is not always possible. There are two options to handle your spooky software:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find an alternative&lt;/li&gt;
+&lt;li&gt;Leverage tools to stay safe while still using the spooky software&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The former is generally easier and the most recommended way, however, sometimes you just have to use the spooky software for work or for a given hobby. I don&#39;t think you should quit work or give up a hobby in the name of privacy in most cases.&lt;/p&gt;
+&lt;h3&gt;Finding an Alternative&lt;/h3&gt;
+&lt;p&gt;One of the things I have liked about switching to Linux is learning there are other ways to do what I need to do on computers. Used to, I thought Microsoft Word was the only way to do my school. Partly because I had never used anything else, and partly because they said to use it. While I understand that there are &lt;em&gt;some&lt;/em&gt; people who cannot switch to an operating system that respects their privacy, almost everyone can find privacy respecting alternatives to some of the software they use. A really good resource for this is &lt;a href=&quot;https://alternativeto.net/&quot;&gt;AlternativeTo&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;AlternativeTo has a search bar that lets you search for almost any tool you can think of, and they list other tools that do the same or similar thing. For example, searching &quot;Microsoft Word&quot; returns LibreOffice Writer, Apache OpenOffice Writer, Google Docs, etc. They have tags that indicate weather the software is open source or proprietary, free or payed, and what operating systems it supports. There are also user reviews where there is discussion about ease of use or software stability. Most of the time you can use privacy friendly alternatives without leaving your current operating system or changing your current workflow. &lt;/p&gt;
+&lt;h3&gt;Protecting Yourself From Spooky Software&lt;/h3&gt;
+&lt;p&gt;Sometimes you just can&#39;t stop using spooky software. I don&#39;t need to give examples of this because if you are in this unfortunate situation you know how it feels. For me personally, I can&#39;t uninstall Google services from my mobile phone because my school forces me to have Duo for two factor authentication (even though it is an objectively worse way to do 2FA then rolling codes). &lt;/p&gt;
+&lt;p&gt;The best way to protect yourself from spooky software is sandboxing. Sandboxing is forcing the software to run in an environment that keeps it separate from the rest of your system. When software is sandboxed, it can&#39;t access other processes, data, or sensors unless it is explicitly allowed. On GrapheneOS, Google Play apps are sandboxed by default, making it difficult for them to do system-wide spying. On Linux, you can use simply use the &lt;a href=&quot;https://www.flatpak.org/&quot;&gt;Flatpak&lt;/a&gt; version of a given software. &lt;a href=&quot;https://flathub.org/apps/com.github.tchx84.Flatseal&quot;&gt;Flatseal&lt;/a&gt; is an application that lets you have very fine control over each of your Flatpak apps. Flatpaks run in a sandbox by default, and some app developers only support Flatpaks as it makes their workflow easier. If you are using an unoffical Flatpak packaging, make sure you trust the person doing the packaging. &lt;/p&gt;
+&lt;p&gt;When Bing AI first came out I wanted to use it, but it was only available in Microsoft Edge. Since I didn&#39;t want to use Edge on my PC (because it is a privacy nightmare) I used the Flatpak version. Using Flatseal, I was able to lock down the permissions it had so I could use it without too much tracking. &lt;/p&gt;
+&lt;p&gt;Other things you can do is running applications in a VM, which gives your a lot of protection since malware to escape hypervisors is very expensive and sought after. One good way to do this system-wide is &lt;a href=&quot;https://www.qubes-os.org/&quot;&gt;QubesOS&lt;/a&gt;. I have personally never used it, but I really want to and plan to review it at some point. QubesOS has the endorsement of Edward Snowden, Let&#39;s Encrypt, and many dark web users, which is good enough for me to call it good. &lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So, in conclusion, there is actually a lot you can do to be more private online. If you are feeling trapped or just getting started on privacy, I hope this guide can point you in the right direction. There are also some good things you can do to remain slightly more anonymous online like using a VPN, but this should be done with caution and only when you fully understand how VPNs work. I personally recommend &lt;a href=&quot;https://mullvad.net/&quot;&gt;Mullvad VPN&lt;/a&gt;, but you should still research them on your own. Remember, privacy is not a destination, it is a journey. I encourage anyone to just start where they are and take small steps! &lt;/p&gt;
+&lt;p&gt;I am still getting started on this website, but I want to have a lot of resources for people who are interested in privacy and security. I am making some really cool resources I can&#39;t wait to share, so subscribe to the &lt;a href=&quot;https://mnsr.win/atom.xml&quot;&gt;RSS&lt;/a&gt; feed and stay tuned! &lt;/p&gt;</content>
+		<link href="https://mnsr.win/spooky-month"/>
+		<id>https://mnsr.win/spooky-month</id>
+		<updated>2023-10-21T10:00:00Z</updated>
+		<published>2023-10-21T10:00:00Z</published>
+	</entry>
 	<entry>
 		<title>Hello World!</title>
 		<content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
