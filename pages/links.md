@@ -1,6 +1,6 @@
 # Links
 
-*Last updated Oct 03, 2023*
+*Last updated Jan 15, 2024*
 
 Here are some links to other websites that I like. It is hard to find websites like these, so we need to do our part to spread the word.
 
@@ -8,13 +8,16 @@ Here are some links to other websites that I like. It is hard to find websites l
 
 - [~bt](https://bt.ht/)
 - [Denshi](https://denshi.org/)
-- [Eric Murphy](https://ericmurphy.xyz)
 - [Luke Smith](https://lukesmith.xyz/)
+- [Eric Murphy](https://ericmurphy.xyz)
+- [Ray Patrick](https://rayppatrick.xyz)
+- [Jacob Smith](https://jacobwsmith.xyz)
 - [Switched To Linux](https://www.switchedtolinux.com/)
 
 ## Videos
 
 - [Brodie Robertson](https://odysee.com/@BrodieRobertson:5)
+- [Louis Rossmann](https://odysee.com/@rossmanngroup:a)
 - [Mental Outlaw](https://odysee.com/@AlphaNerd:8)
 
 ### Other Things That Inspired Me

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark">
+	<link rel="icon" href="/public/images/favicon.png">
+	<title>How to setup a Password Manager</title>
+	<link href="https://mnsr.win/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: sans-serif;
+			line-height: 1.45;
+			margin: 0 auto;
+			max-width: 45rem;
+			padding: 0 15px;
+		}
+		hr {
+			background-color: grey;
+			border: 0;
+			height: 1px;
+			margin: 2rem 0;
+		}
+		nav {
+			margin: 2rem 0 0;
+		}
+		main {
+			hyphens: none;
+		}
+		main p {
+			margin: 1rem;
+		}
+		h1,h2,h3,h4 {
+			margin: 2rem 0 0;
+		}
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+		h1 + p {
+			margin: 0 0 1rem;
+		}
+		span.created {
+			display: block;
+			margin: 4px 15px;
+		}
+		img {
+			border: 1px solid lightgrey;
+			height: auto;
+			max-width: 100%;
+			width: auto;
+		}
+		blockquote {
+			border: 1px solid;
+			border-left: 6px solid;
+			margin: 2rem 0;
+			padding: 10px;
+		}
+		blockquote p {
+			margin: 0;
+		}
+		figure {
+			margin: 2rem 0;
+		}
+		figcaption {
+			color: slategrey;
+		}
+		code {
+			border: 1px solid;
+			padding: 0.1rem 0.3rem;
+			tab-size: 4;
+		}
+		pre {
+			border: 1px solid;
+		}
+		pre code {
+			border: 0;
+			display: block;
+			overflow-x: auto;
+			padding: 0.3rem 0.6rem;
+		}
+		table {
+			border-collapse: collapse;
+			margin: 2rem 0;
+			text-align: left;
+			width: 100%;
+		}
+		tr {
+			border-bottom: 1px solid lightgrey;
+		}
+		tr:nth-of-type(odd) td {
+			background-color: #f8f8f8;
+		}
+		th,td {
+			padding: 6px;
+		}
+		footer {
+			border-top: 1px dashed grey;
+			margin: 2rem 0;
+			padding: 1rem 15px;
+		}
+		@supports (color-scheme: dark light) {
+			@media screen and (prefers-color-scheme: dark) {
+				a:link {color: #9e9eff;}
+				a:visited {color: #d0adf0;}
+				a:active {color: red;}
+			}
+		}
+	</style>
+</head>
+
+<nav>
+	<a href="/">Home</a><span> | </span><a href="/about">About</a><span> | </span><a href="/quotes">Quotes</a><span> | </span><a href="/setup">Setup</a>
+	<br /><a href="/atom.xml">RSS</a><span> | </span><a href="/pgp">PGP</a> <span> | </span><a href="/links">Links</a> <span> | </span><a href="https://github.com/MidnightSlicer/mnsr.win">Source Code</a>
+</nav>
+
+<main>
+<h1>How to setup a Password Manager</h1>
+<p>2024-01-15</p>
+<p>If you want to know more about password managers, read my post about them <a href="https://mnsr.win/password-managers">here</a>.</p>
+<p>In this post, I am going to show you how to set up Bitwarden as your password manager. This guide can be applied to any desktop browser and pretty much any password manager. Your screen will likely look different than mine, but the principle will be similar. </p>
+<h2>Overview</h2>
+<p>In this guide I will be using Brave on desktop, which looks very similar to Google Chrome and Microsoft Edge. If you are on Firefox or <a href="https://mnsr.win/safari">Safari</a> the steps are pretty much the same as well. I highly recommend doing this on a desktop computer. </p>
+<ol>
+<li><a href="#create-a-bitwarden-account">Create a Bitwarden account</a></li>
+<li><a href="#import-your-passwords-into-bitwarden">Import your passwords into Bitwarden</a></li>
+<li><a href="#install-the-browser-addonextension">Install the browser addon/extension</a></li>
+<li>Install the mobile app (<a href="#install-the-mobile-app-android">Android</a>) (<a href="#install-the-mobile-app-ios">iOS</a>)</li>
+<li><a href="#moving-forward">Moving forward</a></li>
+</ol>
+<h3>Create a Bitwarden Account</h3>
+<p>This is the first step to using Bitwarden. This will be the hardest step in this guide. Everything after this is super simple. Go to <a href="https://bitwarden.com/">bitwarden.com</a> and hit "Get started" in the top right of the screen.</p>
+<p>This should redirect you to vault.bitwarden.com. Here, you can enter your email, name, master password, and a master password hint. The email and name are easy, but the master password part can be hard. The master password should be something long (at least 12 characters). Depending on how you like to do things, it also needs to be something you can remember. Personally, I used a <a href="https://randomwordgenerator.com/">random word generator</a> set to 5 words, added dashes and numbers, wrote it down on my paper, and called it a day. This is an example of what I would make using a random word generator:</p>
+<p>Mean3-Different1-Conclusion8-Original4-Ostracize6</p>
+<p>For me, this is the only password I write down on paper, then I put that paper in a safe place where my loved ones can find it if something were to happen to me. This gives them easy access to all of my logins and makes dealing with business much easier (trust me, I have dealt with relatives passing and leaving no clues on how to get into their stuff). </p>
+<p>Once you are ready, check the agree to terms box and then click "Create account". Prove you are a human (if you are one) or hire someone on fiver to do it for you (if you are ChatGPT). Do not save the password to your browser, that is what we are trying to get rid of, remember? </p>
+<p>This will prompt you to enter your email once more, and then enter your password again. Then, you will finally be in your new Bitwarden account. Congrats! You are basically done! Verify your email and continue to the next step. </p>
+<h3>Import your Passwords into Bitwarden</h3>
+<p>Now it is time for the fun part! You can import all the passwords you have saved in your browser to Bitwarden with minimal effort. Once logged in and email verified, go to Tools -&gt; Import data. You can leave the Import destination on "My vault" and leave the folder box alone. These are for sorting your vaults later, something I won't get into here. Select a file format. There are several to choose from, but since you are using a browser, you just need to select the browser you are using. Note that if you are using Brave, Edge or any other Chrome based browser, select "Chrome (csv)". When you select a file format, Bitwarden will give you a link to a tutorial on how to import the passwords. Just follow that. (Note you can also put "chrome://password-manager/settings" into your Chrome based browser and be redirected to it's password settings). </p>
+<p>Once you upload the file, you can just click "Import data" and batta-bing-batta-boom. You are off to the races. You can now install the browser extension, mobile apps, or desktop app to handle all of your auto fill. You can also repeat the import instruction on other browsers you have (like maybe a separate browser on your phone) and add those to your vault. If you end up importing duplicates, don't worry. You can always come back to <a href="https://vault.bitwarden.com/">vault.bitwarden.com</a> and easily manage your passwords. </p>
+<h3>Install the Browser Addon/Extension</h3>
+<p>Coming soon</p>
+<h3>Install the Mobile App (Android)</h3>
+<p>Coming soon</p>
+<h3>Install the Mobile App (iOS)</h3>
+<p>Coming soon</p>
+<h3>Moving Forward</h3>
+<p>Now, all you have to do is go into all of your devices and tell them to stop autofilling your stuff. Bitwarden handles that now. When you create new accounts you can save them to Bitwarden and use it's password generator to randomly generate passwords for every account. You can also slowly go back and change all your passwords on your existing accounts using randomly generated ones. I would also recommend adding some sort of 2-Factor Authentication (2FA) to your Bitwarden account. </p>
+<h2>Conclusion</h2>
+<p>Taking this small step for password security will really help reduce the likelihood of you being hacked in the future. It also makes it easier for your family to handle important business if something does happen to you and you are unable to assist. Overall, password managers may have some downsides, but the benefits outweigh the downsides every why I measure it. </p>
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+
+    <small>
+        Built with <a href="https://git.sr.ht/~bt/barf">barf</a>, a simple and minimal website generator licensed under the <a href="https://git.sr.ht/~bt/barf/tree/master/item/LICENSE">MIT</a> license. <br>
+        The content of this site is licensed under the <a href="https://github.com/MidnightSlicer/mnsr.win/blob/main/LICENSE">GPL 3.0</a> license.
+    </small>
+</footer>

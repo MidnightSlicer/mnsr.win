@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="dark">
+	<link rel="icon" href="/public/images/favicon.png">
+	<title>Cybersecurity is Important -- Password Managers can Help</title>
+	<link href="https://mnsr.win/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: sans-serif;
+			line-height: 1.45;
+			margin: 0 auto;
+			max-width: 45rem;
+			padding: 0 15px;
+		}
+		hr {
+			background-color: grey;
+			border: 0;
+			height: 1px;
+			margin: 2rem 0;
+		}
+		nav {
+			margin: 2rem 0 0;
+		}
+		main {
+			hyphens: none;
+		}
+		main p {
+			margin: 1rem;
+		}
+		h1,h2,h3,h4 {
+			margin: 2rem 0 0;
+		}
+		h1 {
+			margin-bottom: 0.5rem;
+		}
+		h1 + p {
+			margin: 0 0 1rem;
+		}
+		span.created {
+			display: block;
+			margin: 4px 15px;
+		}
+		img {
+			border: 1px solid lightgrey;
+			height: auto;
+			max-width: 100%;
+			width: auto;
+		}
+		blockquote {
+			border: 1px solid;
+			border-left: 6px solid;
+			margin: 2rem 0;
+			padding: 10px;
+		}
+		blockquote p {
+			margin: 0;
+		}
+		figure {
+			margin: 2rem 0;
+		}
+		figcaption {
+			color: slategrey;
+		}
+		code {
+			border: 1px solid;
+			padding: 0.1rem 0.3rem;
+			tab-size: 4;
+		}
+		pre {
+			border: 1px solid;
+		}
+		pre code {
+			border: 0;
+			display: block;
+			overflow-x: auto;
+			padding: 0.3rem 0.6rem;
+		}
+		table {
+			border-collapse: collapse;
+			margin: 2rem 0;
+			text-align: left;
+			width: 100%;
+		}
+		tr {
+			border-bottom: 1px solid lightgrey;
+		}
+		tr:nth-of-type(odd) td {
+			background-color: #f8f8f8;
+		}
+		th,td {
+			padding: 6px;
+		}
+		footer {
+			border-top: 1px dashed grey;
+			margin: 2rem 0;
+			padding: 1rem 15px;
+		}
+		@supports (color-scheme: dark light) {
+			@media screen and (prefers-color-scheme: dark) {
+				a:link {color: #9e9eff;}
+				a:visited {color: #d0adf0;}
+				a:active {color: red;}
+			}
+		}
+	</style>
+</head>
+
+<nav>
+	<a href="/">Home</a><span> | </span><a href="/about">About</a><span> | </span><a href="/quotes">Quotes</a><span> | </span><a href="/setup">Setup</a>
+	<br /><a href="/atom.xml">RSS</a><span> | </span><a href="/pgp">PGP</a> <span> | </span><a href="/links">Links</a> <span> | </span><a href="https://github.com/MidnightSlicer/mnsr.win">Source Code</a>
+</nav>
+
+<main>
+<h1>Cybersecurity is Important -- Password Managers can Help</h1>
+<p>2024-01-15</p>
+<p>If you just want to know how to set up a password manager, go read my post <a href="https://mnsr.win/password-manager-setup/">here</a>.</p>
+<p>Cybersecurity is a very popular topic these days. With companies making the news almost every week having some sort of data leak or cyber attack, it is a subject one should rightfully be concerned about. Unfortunately, most are not as concerned or as aware as I think they should be. </p>
+<p>It is difficult to find information about cybersecurity. Almost every post on it on the internet is made by a company that is trying to sell you something. While there can be (and often is) good information in these posts, you know the information is being presented to you to get your money, not keep you safe. Again, this is not even a bad thing, but I believe it still has an effect on the reader. </p>
+<p>So, before we go any further, let me tell you about our sponsor, NordVP- (just kidding <s>Proton please sponsor me</s>).</p>
+<h2>It isn't hard (Seriously)</h2>
+<p>There are two things you can do to bolster your online security:</p>
+<ol>
+<li>Use a unique, random password for each website</li>
+<li>Use Two-Factor Authentication (2FA) everywhere possible (especially social media, email, and banking accounts)</li>
+</ol>
+<p>The issue with the former is human brains are not meant to randomly generate and remember tens of passwords. Since memorization is impractical, we do the predictable thing... use one password for everything. Even if that one password is a "good password", it is still everywhere. If any service who has that password just so happens to be storing it in plain text gets hacked, guess what? That password is now in hacker databases likely tied to your email. It is only a matter of time before someone starts trying your user info on other services and gets into one of your accounts. </p>
+<p>This means that password managers are just a necessary evil. Password managers act as the one secure place you store all of your passwords. Instead of writing them down on a piece of paper under your keyboard, or worse, put them in some cloud synced notes application, the password manager stores all of your passwords safely in one place and gives you easy access to them. The achilles' heel in this whole plan is your "Master password", the single password that protects your vault. Below, I will discuss a few password manager options, and then I will send you to my next post to show you how to set up a password manager. </p>
+<h2>Bad Password Managers</h2>
+<p>The idea of a password manager scares those who know enough about security to know not to share their passwords, I mean, think about it. "Hey can you put all of your passwords in a spreadsheet and upload it to our servers?", that is essentially what you are doing with a password manager (unless you are using <a href="https://keepassxc.org">KeePassXC</a>). BUT! There are password managers you can trust, it is just important to use one of them... instead of a creepy one. </p>
+<p>Here are a few I would never even consider:</p>
+<ol>
+<li>LastPass 🤮</li>
+<li>Anything built-in to any browser</li>
+<li>McAfee Password Manger</li>
+<li>Anything that isn't open source</li>
+</ol>
+<h2>Good Password Managers</h2>
+<p>A good password manger is the one that offers the features you want, without compromising on security. The password managers mentioned above are ones that <a href="https://www.cnet.com/tech/services-and-software/still-using-lastpass-you-need-to-do-these-5-things/">have massive data breaches</a>, are unencrypted, ran by a company I wouldn't trust with anything, or just general bad practice. </p>
+<p>There are two password managers I have extensive experience with and would recommend to anyone who doesn't have one. Also, let me just say that picking a password manager (if it is a good one) is not a permanent decision. Most password managers allow you to export your passwords just like the allow you to import them, meaning once you have your passwords in a way that one password manager can read them, most others will be able to read them too. Password manager hopping is actually super easy, and takes me about 3 minutes once the password manager itself is setup. So, without further adieu, my favorite password managers: <a href="https://bitwarden.com/">Bitwarden</a> and <a href="https://proton.me/pass">Proton Pass</a>. </p>
+<h3>Bitwarden: the affordable, simple option</h3>
+<p><a href="https://bitwarden.com/">Bitwarden</a> is probably the number one password manager that comes to mind when you say you strictly want an open source password manager. They have been around for a while and have always been know for transparency and security. Bitwarden also has a free plan that offers all of the major features one would expect from a password manager. Bitwarden is also active in the login security community, participating in efforts to make passkeys more common and useful for users. If you decide to pay for Bitwarden, which I recommend after using it for a few weeks to make sure you like it, the subscription is $10 (USD) per year (or $40 per year for 6 users). The subscription gives you access to the Bitwarden Authenticator, Bitwarden's 2FA manager built directly into your password manager. And a few more nice to have features, like secure file uploads, security reports, and emergency access. </p>
+<h3>Proton Pass: the powerful, integrated option</h3>
+<p>Not to <a href="https://iv.ggtyler.dev/watch?v=WTWyosdkx44">doot</a> Proton's horn, but I will start by saying that Proton Pass just looks plain better than Bitwarden. </p>
+<p>Proton Pass browser extension locked
+<img style="border:0;margin-top:2rem;" src="../public/posts/password-managers/protonpass-locked.png" alt="Proton Pass browser extension locked">
+</p>
+<p>Bitwarden browser extension locked
+<img style="border:0;margin-top:2rem;" src="../public/posts/password-managers/bitwarden-locked.png" alt="Bitwarden browser extension locked">
+</p>
+<p><a href="https://proton.me/pass">Proton Pass</a> is a newer entry to the password manager space. It is made by the same team who made Proton Mail, the encrypted and secure email service that doesn't spy on you. Just because it is new doesn't make it worse. I have used each extensively in both Chrome (Brave) and Firefox as well as their Android apps and I think that Proton Pass's auto fill just works better in all cases. The free Proton Pass plan allows you to store 2FA keys, which I think is important, and also gives you access to 10 "<em>hide-my-email</em> aliases". Email aliases are a unique approach that Proton has engineered and I haven't seen anything quite like it. Basically, using their tooling from <a href="https://simplelogin.io/">SimpleLogin</a>, Proton Pass can generate an email address for you to give websites when signing up. This alias points to Proton's servers and when an email is sent to that address, it immediately gets redirected to your inbox. When that company inevitably either sells/leaks your email address and it starts getting spammed with ads, you can just go to your dashboard and disable (or delete) the address. Boom. No more email spam. It is just gone. Unfortunately, if you are only looking for a password manager, Proton Pass may not be for you. Proton Pass works best (and is a better deal) if it is bought in a Proton Mail bundle, which includes Mail, Calendar, Drive, VPN and Pass. However, as a Proton Family Plan user myself, I highly recommend looking into protecting yourself and those you love with Proton. </p>
+<h2>What about KeePass/KeePassXC?</h2>
+<p>KeePass (and its fork, KeePassXC) is a great password manager that I really love a lot. It takes a little different approach to managing passwords than pretty much any other password manager. KeePass is an <em>offline</em> password manager. KeePass doesn't have some server somewhere that you put your passwords in. Instead, it is up to you to manage the password database. This gives you maximum control over your data, and you can even make your own KeePass server to get a similar experience to using the cloud. However, it is a lot more technical than one of the other plug-and-play password managers. You are also <em>very responsible</em> for your passwords. If you loose your database... your done. Gone. Just plain out of luck. There is nothing anyone anywhere can do about that. With online password managers, you can set recovery methods to get into your account in case you misplace your password. If a natural disaster hits your house, the cloud password managers will be unaffected and you will still have all of your logins. </p>
+<p>Part of me wants to rent a Virtual Private Server (VPS) and run my own KeePass server, but man, Proton Pass (my current password manager) is so nice and easy to use. </p>
+<h2>What about 1Password?</h2>
+<p>This is a more technical topic, but in short I do not recommend <a href="https://1password.community/discussion/comment/114870/#Comment_114870">1Password since they are not interested in open sourcing their client applications</a>. While their intentions seem sincere, my personal biases lead me to be more skeptical when you won't trust me to read the code that is running on my computer. Trust in IT is bad. Never trust developers and companies. The password managers I mentioned above allow the user to review the software, reducing trust placed in the developers of the project. </p>
+<h2>Conclusion</h2>
+<p>So! Now you know a lot about password managers, why they are important, and which ones you can look into. Now, if you are ready to dive in and set up your password manager, then just click this <a href="https://mnsr.win/password-manager-setup">link</a> to follow my guide on setting up Bitwarden. </p>
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+
+    <small>
+        Built with <a href="https://git.sr.ht/~bt/barf">barf</a>, a simple and minimal website generator licensed under the <a href="https://git.sr.ht/~bt/barf/tree/master/item/LICENSE">MIT</a> license. <br>
+        The content of this site is licensed under the <a href="https://github.com/MidnightSlicer/mnsr.win/blob/main/LICENSE">GPL 3.0</a> license.
+    </small>
+</footer>

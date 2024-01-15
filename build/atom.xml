@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>MidnightSlicer Blog</title>
+	<title>Dylan's Blog</title>
 	<link href="https://mnsr.win/atom.xml" rel="self" />
-	<updated>2023-10-21T13:15:52Z</updated>
+	<updated>2024-01-15T17:10:45Z</updated>
 	<author>
 		<name>Dylan</name>
 	</author>
@@ -36,6 +36,97 @@
 		<id>https://mnsr.win/spooky-month</id>
 		<updated>2023-10-21T10:00:00Z</updated>
 		<published>2023-10-21T10:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Cybersecurity is Important -- Password Managers can Help</title>
+		<content type="html">&lt;h1&gt;Cybersecurity is Important -- Password Managers can Help&lt;/h1&gt;
+&lt;p&gt;2024-01-15&lt;/p&gt;
+&lt;p&gt;If you just want to know how to set up a password manager, go read my post &lt;a href=&quot;https://mnsr.win/password-manager-setup/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cybersecurity is a very popular topic these days. With companies making the news almost every week having some sort of data leak or cyber attack, it is a subject one should rightfully be concerned about. Unfortunately, most are not as concerned or as aware as I think they should be. &lt;/p&gt;
+&lt;p&gt;It is difficult to find information about cybersecurity. Almost every post on it on the internet is made by a company that is trying to sell you something. While there can be (and often is) good information in these posts, you know the information is being presented to you to get your money, not keep you safe. Again, this is not even a bad thing, but I believe it still has an effect on the reader. &lt;/p&gt;
+&lt;p&gt;So, before we go any further, let me tell you about our sponsor, NordVP- (just kidding &lt;s&gt;Proton please sponsor me&lt;/s&gt;).&lt;/p&gt;
+&lt;h2&gt;It isn&#39;t hard (Seriously)&lt;/h2&gt;
+&lt;p&gt;There are two things you can do to bolster your online security:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Use a unique, random password for each website&lt;/li&gt;
+&lt;li&gt;Use Two-Factor Authentication (2FA) everywhere possible (especially social media, email, and banking accounts)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The issue with the former is human brains are not meant to randomly generate and remember tens of passwords. Since memorization is impractical, we do the predictable thing... use one password for everything. Even if that one password is a &quot;good password&quot;, it is still everywhere. If any service who has that password just so happens to be storing it in plain text gets hacked, guess what? That password is now in hacker databases likely tied to your email. It is only a matter of time before someone starts trying your user info on other services and gets into one of your accounts. &lt;/p&gt;
+&lt;p&gt;This means that password managers are just a necessary evil. Password managers act as the one secure place you store all of your passwords. Instead of writing them down on a piece of paper under your keyboard, or worse, put them in some cloud synced notes application, the password manager stores all of your passwords safely in one place and gives you easy access to them. The achilles&#39; heel in this whole plan is your &quot;Master password&quot;, the single password that protects your vault. Below, I will discuss a few password manager options, and then I will send you to my next post to show you how to set up a password manager. &lt;/p&gt;
+&lt;h2&gt;Bad Password Managers&lt;/h2&gt;
+&lt;p&gt;The idea of a password manager scares those who know enough about security to know not to share their passwords, I mean, think about it. &quot;Hey can you put all of your passwords in a spreadsheet and upload it to our servers?&quot;, that is essentially what you are doing with a password manager (unless you are using &lt;a href=&quot;https://keepassxc.org&quot;&gt;KeePassXC&lt;/a&gt;). BUT! There are password managers you can trust, it is just important to use one of them... instead of a creepy one. &lt;/p&gt;
+&lt;p&gt;Here are a few I would never even consider:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;LastPass 🤮&lt;/li&gt;
+&lt;li&gt;Anything built-in to any browser&lt;/li&gt;
+&lt;li&gt;McAfee Password Manger&lt;/li&gt;
+&lt;li&gt;Anything that isn&#39;t open source&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Good Password Managers&lt;/h2&gt;
+&lt;p&gt;A good password manger is the one that offers the features you want, without compromising on security. The password managers mentioned above are ones that &lt;a href=&quot;https://www.cnet.com/tech/services-and-software/still-using-lastpass-you-need-to-do-these-5-things/&quot;&gt;have massive data breaches&lt;/a&gt;, are unencrypted, ran by a company I wouldn&#39;t trust with anything, or just general bad practice. &lt;/p&gt;
+&lt;p&gt;There are two password managers I have extensive experience with and would recommend to anyone who doesn&#39;t have one. Also, let me just say that picking a password manager (if it is a good one) is not a permanent decision. Most password managers allow you to export your passwords just like the allow you to import them, meaning once you have your passwords in a way that one password manager can read them, most others will be able to read them too. Password manager hopping is actually super easy, and takes me about 3 minutes once the password manager itself is setup. So, without further adieu, my favorite password managers: &lt;a href=&quot;https://bitwarden.com/&quot;&gt;Bitwarden&lt;/a&gt; and &lt;a href=&quot;https://proton.me/pass&quot;&gt;Proton Pass&lt;/a&gt;. &lt;/p&gt;
+&lt;h3&gt;Bitwarden: the affordable, simple option&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitwarden.com/&quot;&gt;Bitwarden&lt;/a&gt; is probably the number one password manager that comes to mind when you say you strictly want an open source password manager. They have been around for a while and have always been know for transparency and security. Bitwarden also has a free plan that offers all of the major features one would expect from a password manager. Bitwarden is also active in the login security community, participating in efforts to make passkeys more common and useful for users. If you decide to pay for Bitwarden, which I recommend after using it for a few weeks to make sure you like it, the subscription is $10 (USD) per year (or $40 per year for 6 users). The subscription gives you access to the Bitwarden Authenticator, Bitwarden&#39;s 2FA manager built directly into your password manager. And a few more nice to have features, like secure file uploads, security reports, and emergency access. &lt;/p&gt;
+&lt;h3&gt;Proton Pass: the powerful, integrated option&lt;/h3&gt;
+&lt;p&gt;Not to &lt;a href=&quot;https://iv.ggtyler.dev/watch?v=WTWyosdkx44&quot;&gt;doot&lt;/a&gt; Proton&#39;s horn, but I will start by saying that Proton Pass just looks plain better than Bitwarden. &lt;/p&gt;
+&lt;p&gt;Proton Pass browser extension locked
+&lt;img style=&quot;border:0;margin-top:2rem;&quot; src=&quot;../public/posts/password-managers/protonpass-locked.png&quot; alt=&quot;Proton Pass browser extension locked&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;Bitwarden browser extension locked
+&lt;img style=&quot;border:0;margin-top:2rem;&quot; src=&quot;../public/posts/password-managers/bitwarden-locked.png&quot; alt=&quot;Bitwarden browser extension locked&quot;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://proton.me/pass&quot;&gt;Proton Pass&lt;/a&gt; is a newer entry to the password manager space. It is made by the same team who made Proton Mail, the encrypted and secure email service that doesn&#39;t spy on you. Just because it is new doesn&#39;t make it worse. I have used each extensively in both Chrome (Brave) and Firefox as well as their Android apps and I think that Proton Pass&#39;s auto fill just works better in all cases. The free Proton Pass plan allows you to store 2FA keys, which I think is important, and also gives you access to 10 &quot;&lt;em&gt;hide-my-email&lt;/em&gt; aliases&quot;. Email aliases are a unique approach that Proton has engineered and I haven&#39;t seen anything quite like it. Basically, using their tooling from &lt;a href=&quot;https://simplelogin.io/&quot;&gt;SimpleLogin&lt;/a&gt;, Proton Pass can generate an email address for you to give websites when signing up. This alias points to Proton&#39;s servers and when an email is sent to that address, it immediately gets redirected to your inbox. When that company inevitably either sells/leaks your email address and it starts getting spammed with ads, you can just go to your dashboard and disable (or delete) the address. Boom. No more email spam. It is just gone. Unfortunately, if you are only looking for a password manager, Proton Pass may not be for you. Proton Pass works best (and is a better deal) if it is bought in a Proton Mail bundle, which includes Mail, Calendar, Drive, VPN and Pass. However, as a Proton Family Plan user myself, I highly recommend looking into protecting yourself and those you love with Proton. &lt;/p&gt;
+&lt;h2&gt;What about KeePass/KeePassXC?&lt;/h2&gt;
+&lt;p&gt;KeePass (and its fork, KeePassXC) is a great password manager that I really love a lot. It takes a little different approach to managing passwords than pretty much any other password manager. KeePass is an &lt;em&gt;offline&lt;/em&gt; password manager. KeePass doesn&#39;t have some server somewhere that you put your passwords in. Instead, it is up to you to manage the password database. This gives you maximum control over your data, and you can even make your own KeePass server to get a similar experience to using the cloud. However, it is a lot more technical than one of the other plug-and-play password managers. You are also &lt;em&gt;very responsible&lt;/em&gt; for your passwords. If you loose your database... your done. Gone. Just plain out of luck. There is nothing anyone anywhere can do about that. With online password managers, you can set recovery methods to get into your account in case you misplace your password. If a natural disaster hits your house, the cloud password managers will be unaffected and you will still have all of your logins. &lt;/p&gt;
+&lt;p&gt;Part of me wants to rent a Virtual Private Server (VPS) and run my own KeePass server, but man, Proton Pass (my current password manager) is so nice and easy to use. &lt;/p&gt;
+&lt;h2&gt;What about 1Password?&lt;/h2&gt;
+&lt;p&gt;This is a more technical topic, but in short I do not recommend &lt;a href=&quot;https://1password.community/discussion/comment/114870/#Comment_114870&quot;&gt;1Password since they are not interested in open sourcing their client applications&lt;/a&gt;. While their intentions seem sincere, my personal biases lead me to be more skeptical when you won&#39;t trust me to read the code that is running on my computer. Trust in IT is bad. Never trust developers and companies. The password managers I mentioned above allow the user to review the software, reducing trust placed in the developers of the project. &lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;So! Now you know a lot about password managers, why they are important, and which ones you can look into. Now, if you are ready to dive in and set up your password manager, then just click this &lt;a href=&quot;https://mnsr.win/password-manager-setup&quot;&gt;link&lt;/a&gt; to follow my guide on setting up Bitwarden. &lt;/p&gt;</content>
+		<link href="https://mnsr.win/password-managers"/>
+		<id>https://mnsr.win/password-managers</id>
+		<updated>2024-01-15T10:00:00Z</updated>
+		<published>2024-01-15T10:00:00Z</published>
+	</entry>
+	<entry>
+		<title>How to setup a Password Manager</title>
+		<content type="html">&lt;h1&gt;How to setup a Password Manager&lt;/h1&gt;
+&lt;p&gt;2024-01-15&lt;/p&gt;
+&lt;p&gt;If you want to know more about password managers, read my post about them &lt;a href=&quot;https://mnsr.win/password-managers&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this post, I am going to show you how to set up Bitwarden as your password manager. This guide can be applied to any desktop browser and pretty much any password manager. Your screen will likely look different than mine, but the principle will be similar. &lt;/p&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;In this guide I will be using Brave on desktop, which looks very similar to Google Chrome and Microsoft Edge. If you are on Firefox or &lt;a href=&quot;https://mnsr.win/safari&quot;&gt;Safari&lt;/a&gt; the steps are pretty much the same as well. I highly recommend doing this on a desktop computer. &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;#create-a-bitwarden-account&quot;&gt;Create a Bitwarden account&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#import-your-passwords-into-bitwarden&quot;&gt;Import your passwords into Bitwarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#install-the-browser-addonextension&quot;&gt;Install the browser addon/extension&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Install the mobile app (&lt;a href=&quot;#install-the-mobile-app-android&quot;&gt;Android&lt;/a&gt;) (&lt;a href=&quot;#install-the-mobile-app-ios&quot;&gt;iOS&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#moving-forward&quot;&gt;Moving forward&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Create a Bitwarden Account&lt;/h3&gt;
+&lt;p&gt;This is the first step to using Bitwarden. This will be the hardest step in this guide. Everything after this is super simple. Go to &lt;a href=&quot;https://bitwarden.com/&quot;&gt;bitwarden.com&lt;/a&gt; and hit &quot;Get started&quot; in the top right of the screen.&lt;/p&gt;
+&lt;p&gt;This should redirect you to vault.bitwarden.com. Here, you can enter your email, name, master password, and a master password hint. The email and name are easy, but the master password part can be hard. The master password should be something long (at least 12 characters). Depending on how you like to do things, it also needs to be something you can remember. Personally, I used a &lt;a href=&quot;https://randomwordgenerator.com/&quot;&gt;random word generator&lt;/a&gt; set to 5 words, added dashes and numbers, wrote it down on my paper, and called it a day. This is an example of what I would make using a random word generator:&lt;/p&gt;
+&lt;p&gt;Mean3-Different1-Conclusion8-Original4-Ostracize6&lt;/p&gt;
+&lt;p&gt;For me, this is the only password I write down on paper, then I put that paper in a safe place where my loved ones can find it if something were to happen to me. This gives them easy access to all of my logins and makes dealing with business much easier (trust me, I have dealt with relatives passing and leaving no clues on how to get into their stuff). &lt;/p&gt;
+&lt;p&gt;Once you are ready, check the agree to terms box and then click &quot;Create account&quot;. Prove you are a human (if you are one) or hire someone on fiver to do it for you (if you are ChatGPT). Do not save the password to your browser, that is what we are trying to get rid of, remember? &lt;/p&gt;
+&lt;p&gt;This will prompt you to enter your email once more, and then enter your password again. Then, you will finally be in your new Bitwarden account. Congrats! You are basically done! Verify your email and continue to the next step. &lt;/p&gt;
+&lt;h3&gt;Import your Passwords into Bitwarden&lt;/h3&gt;
+&lt;p&gt;Now it is time for the fun part! You can import all the passwords you have saved in your browser to Bitwarden with minimal effort. Once logged in and email verified, go to Tools -&amp;gt; Import data. You can leave the Import destination on &quot;My vault&quot; and leave the folder box alone. These are for sorting your vaults later, something I won&#39;t get into here. Select a file format. There are several to choose from, but since you are using a browser, you just need to select the browser you are using. Note that if you are using Brave, Edge or any other Chrome based browser, select &quot;Chrome (csv)&quot;. When you select a file format, Bitwarden will give you a link to a tutorial on how to import the passwords. Just follow that. (Note you can also put &quot;chrome://password-manager/settings&quot; into your Chrome based browser and be redirected to it&#39;s password settings). &lt;/p&gt;
+&lt;p&gt;Once you upload the file, you can just click &quot;Import data&quot; and batta-bing-batta-boom. You are off to the races. You can now install the browser extension, mobile apps, or desktop app to handle all of your auto fill. You can also repeat the import instruction on other browsers you have (like maybe a separate browser on your phone) and add those to your vault. If you end up importing duplicates, don&#39;t worry. You can always come back to &lt;a href=&quot;https://vault.bitwarden.com/&quot;&gt;vault.bitwarden.com&lt;/a&gt; and easily manage your passwords. &lt;/p&gt;
+&lt;h3&gt;Install the Browser Addon/Extension&lt;/h3&gt;
+&lt;p&gt;Coming soon&lt;/p&gt;
+&lt;h3&gt;Install the Mobile App (Android)&lt;/h3&gt;
+&lt;p&gt;Coming soon&lt;/p&gt;
+&lt;h3&gt;Install the Mobile App (iOS)&lt;/h3&gt;
+&lt;p&gt;Coming soon&lt;/p&gt;
+&lt;h3&gt;Moving Forward&lt;/h3&gt;
+&lt;p&gt;Now, all you have to do is go into all of your devices and tell them to stop autofilling your stuff. Bitwarden handles that now. When you create new accounts you can save them to Bitwarden and use it&#39;s password generator to randomly generate passwords for every account. You can also slowly go back and change all your passwords on your existing accounts using randomly generated ones. I would also recommend adding some sort of 2-Factor Authentication (2FA) to your Bitwarden account. &lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Taking this small step for password security will really help reduce the likelihood of you being hacked in the future. It also makes it easier for your family to handle important business if something does happen to you and you are unable to assist. Overall, password managers may have some downsides, but the benefits outweigh the downsides every why I measure it. &lt;/p&gt;</content>
+		<link href="https://mnsr.win/password-manager-setup"/>
+		<id>https://mnsr.win/password-manager-setup</id>
+		<updated>2024-01-15T10:00:00Z</updated>
+		<published>2024-01-15T10:00:00Z</published>
 	</entry>
 	<entry>
 		<title>Hello World!</title>
